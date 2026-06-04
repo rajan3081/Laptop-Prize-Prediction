@@ -120,6 +120,3 @@ See `requirements.txt` for specific versions.
 
 Rajan3081
 
-## License
-
-This project is open source and available for educational purposes.
