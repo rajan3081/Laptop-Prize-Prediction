@@ -1,0 +1,14 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.py"
+    }
+  ],
+  "env": {
+    "PYTHONUNBUFFERED": "1",
+    "STREAMLIT_SERVER_HEADLESS": "true",
+    "STREAMLIT_SERVER_ENABLEXSRFPROTECTION": "false"
+  }
+}
